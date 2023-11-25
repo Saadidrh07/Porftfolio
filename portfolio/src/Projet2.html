@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>r3st0</title>
+    <link rel="stylesheet" href="input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Cairo:wght@1000&family=Dancing+Script&family=Fasthand&family=Golos+Text:wght@500&family=Inter:wght@300&family=Montserrat:ital,wght@0,100;1,200&family=Oswald:wght@500&family=Pacifico&family=Poppins:wght@800&family=Raleway:wght@200&family=Roboto:wght@100;400&family=Rubik+Bubbles&family=Rubik+Iso&family=Rubik+Spray+Paint&family=Rubik:wght@300;400&family=Tajawal:wght@200&family=Tilt+Prism&family=Unbounded:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="src/img/PORTFOLIOoo.jpg" />
+  </head>
+  <body>
+    <div class="bg-[#eedbce]">
+      <header class="flex justify-around  pl-6 sm:w-full items-center sm:items-center sm:text-sm  lg:gap-24 lg:m-auto py-5  sm:m-auto  ">
+        <a href="#" id="H2" 
+          ><h2
+            class=" lg:text-3xl  sm:text-lg font-semibold    text-[#c4421a] font-rubik tracking-wider"
+          >
+            IDRHARNANE SAAD
+          </h2></a
+        >
+        <nav>
+          <a  id="menu-button" class="sm:hidden text-[#c4421a]">
+          <i class="fa-solid fa-bars  sm:text-[<20px]  text-[#c4421a]"></i></a>
+        </nav>
+        <nav   class="hidden  sm:flex sm:gap-7 text-xl font-rubik   text-center w-full lg:w-[60%] sm:w-[70%] flex-col h-screen lg:flex-row lg:items-center sm:items-center md:items-center lg:h-[3rem] sm:h-[3rem] sm:text-lg lg:text-xl md:text-base sm:flex-row justify-center  " id="nav-menu">
+          <a
+           
+            class="transition-all  mb-[2rem]  md:mb-0 sm:mb-0 lg:mb-0 hover:text-[#c4421a] tracking-wider  " href="/index.html#home"
+            >Accueil</a
+          >
+          <a
+            href="/index.html#About"
+            class="transition-all  mb-[2rem] md:mb-0  sm:mb-0 lg:mb-0 hover:text-[#c4421a] tracking-wider "
+            >A propos</a
+          >
+          <a
+            href="/index.html#Project"
+            class="transition-all  mb-[2rem] md:mb-0  sm:mb-0 lg:mb-0 hover:text-[#c4421a] tracking-wider "
+            >Projets</a
+          >
+          <a
+            href="/index.html#Contact"
+            class="transition-all mb-[2rem]  md:mb-0 sm:mb-0 lg:mb-0 hover:text-[#c4421a] tracking-wider "
+            >Contact</a
+          >
+          <a
+          href="/index.html##vT"
+          class="transition-all mb-[2rem] md:mb-0 sm:mb-0 lg:mb-0 hover:text-[#c4421a] tracking-wider  "
+          >Veille technologique</a
+        >
+        <a  class="mt-32 lg:hidden sm:hidden  md:hidden" id="menu-button2" ><i class=" fa-solid   fa-x text-4xl  text-[#c4421a] hover:text-black "></i></a>
+        </nav>
+      </header>
+      <script>
+        const menuIcon1 = document.getElementById("menu-button");
+        const menuIcon2 = document.getElementById("menu-button2");
+        const navMenu = document.getElementById("nav-menu");
+        const h2 = document.getElementById("H2");
+         menuIcon1.addEventListener("click", () => {
+          navMenu.classList.toggle("hidden");
+          navMenu.classList.toggle("flex");
+          menuIcon1.classList.toggle("hidden");
+         h2.classList.toggle("hidden");
+         
+        });
+      
+  navMenu.addEventListener("click", () => {
+          navMenu.classList.toggle("hidden");
+          navMenu.classList.toggle("flex");
+          menuIcon1.classList.toggle("hidden");
+          h2.classList.toggle("hidden");
+          h2.classList.toggle("lg:block");
+          h2.classList.toggle("sm:block");
+          h2.classList.toggle("md:block");
+  });
+      </script>
+    </div>
+    <section
+        class="flex flex-col sm:flex-row sm:px-8 sm:pb-20 sm:pt-12 sm:justify-center gap-7 pl-5 pb-10 "
+      >
+        <div
+          class="flex flex-col gap-2 items-start sm:self-center sm:w-1/2 lg:w-[30%]"
+        >
+          <h1
+            class="text-5xl font-semibold mt-16 text-[#333] before:border-solid before:border-[#c4421a] before:mb-1 before:border-b-4 before:content-[''] before:hover:w-full before:duration-300 before:w-[2rem] before:block"
+          >
+          r3st0.
+          </h1>
+          <p class=" font-bold text-[#c4421a]">Développement du projet en HTML/CSS et Php/MySql</p>
+          <p class="font-rubik text-gray-700 w-[90%]">
+            Inspiré par LaFourchette et TripAdvisor, r3st0.fr construit une base de données de restaurants avec des caractéristiques et des avis, aidant ainsi les visiteurs à faire des choix éclairés en matière de restauration. Il améliore l'expérience culinaire en fournissant des informations complètes et des commentaires d'utilisateurs.
+          </p>
+          
+          </div>
+        </div>
+        
+      </section>
+    </div>
+    <section id="About"
+      class="px-5 py-10  flex gap-5 sm:flex-row-reverse sm:justify-center lg:flex-row  sm:gap-20"
+    >
+    <div class="w-90% flex flex-col gap-10  self-center ">
+      <div
+        class="flex flex-col gap-5 w-40% items-start sm:w-1/2 self-center lg:w-[20%]"
+      >
+        <h2
+          class="text-3xl font-semibold text-[#333] after:border-solid after:border-[#c4421a] after:mt-1 after:border-b-4 after:content-[''] after:hover:w-full after:duration-300 after:w-[2rem] after:block"
+        >
+        Accueil
+        </h2>
+
+        
+      </div>
+      <div class="w-[80%] flex justify-between gap-16 flex-col lg:flex-row  self-center">
+        
+        <div
+        class="flex flex-col gap-5 items-start pt-24 sm:w-1/2 lg:w-[40%]"
+      >
+        <h1
+          class="text-4xl font-semibold text-[#333] before:border-solid before:border-[#c4421a] before:mb-1 before:border-b-4 before:content-[''] before:hover:w-full before:duration-300 before:w-[2rem] before:block"
+        >
+        Liste des restaurants
+        </h1>
+        
+        <p class="font-rubik text-gray-700 w-[90%]">
+        - Récupération des données de tous les restaurants de la base de données.
+         </p>
+         <p>- Nom du restaurant sous forme du lien.</p>
+        
+        </div><img
+          src="/src/img/projetRestau/ProjetRST-1.png"
+          alt=""
+          class="w-[55%] z-[20] self-center relative left-4 rounded-lg"
+        />
+      </div>
+      <div>
+
+      </div>
+      </div>
+    </section>
+    <section id="About"
+    class="px-5 py-10  flex gap-5 sm:flex-row-reverse sm:justify-center sm:gap-20"
+  >
+  <div class="w-90% flex flex-col gap-10  self-center ">
+    <div
+      class="flex flex-col gap-5 w-40% items-start sm:w-1/2 self-center lg:w-[20%]"
+    >  
+    </div>
+    <div class="w-[80%] flex justify-between self-center gap-16  flex-col-reverse lg:flex-row ">
+      <img
+        src="/src/img/projetRestau/ProjetRST-2.png"
+        alt=""
+        class="w-[55%] z-[20] self-center relative left-4 rounded-lg"
+      />
+      <div
+      class="flex flex-col gap-5 items-start  sm:w-1/2 lg:w-[40%]"
+    >
+      <h1
+        class="text-4xl font-semibold pt-24 text-[#333] before:border-solid before:border-[#c4421a] before:mb-1 before:border-b-4 before:content-[''] before:hover:w-full before:duration-300 before:w-[2rem] before:block"
+      >
+      Détails sur un restaurant
+      </h1>
+      <p class="font-rubik text-gray-700 w-[90%]">
+        - Quand l'utilisateur clique sur un nom de restau sur la page d'accueil:
+         
+         </p>
+         <p>-Donc Récupération des données de un restaurant de la base de données.</p>
+        
+      
+      
+      </div>
+    </div>
+    <div>
+
+    </div>
+    </div>
+  </section>
+  
+    <section id="About"
+      class="px-5 py-10  flex gap-5 sm:flex-row-reverse sm:justify-center sm:gap-20"
+    >
+    <div class="w-90% flex flex-col gap-10  self-center ">
+      <div
+        class="flex flex-col gap-5 w-40% items-start sm:w-1/2 self-center lg:w-[20%]"
+      >
+       
+        
+      </div>
+      <div class="w-[80%] flex justify-between self-center gap-16 flex-col-reverse lg:flex-row">
+        <div class="flex flex-col gap-7 w-[55%]">
+        <img
+          src="/src/img/projetRestau/ProjetRST-3.png"
+          alt=""
+          class=" z-[20] self-center relative left-4 rounded-lg"
+        />
+        <img
+          src="/src/img/projetRestau/ProjetRST-4.png"
+          alt=""
+          class=" z-[20] self-center relative left-4 rounded-lg"
+        />
+      </div>
+        <div
+        class="flex flex-col gap-5 items-start  sm:w-1/2 lg:w-[30%]"
+      >
+        <h1
+          class="text-5xl pt-36 font-semibold text-[#333] before:border-solid before:border-[#c4421a] before:mb-1 before:border-b-4 before:content-[''] before:hover:w-full before:duration-300 before:w-[2rem] before:block"
+        >
+        Liste des restaurants
+        </h1>
+        
+        <p class="font-rubik text-gray-700 w-[90%]">
+          En utilisant la fonction de recherche par nom, vous pouvez rechercher un restaurant en spécifiant son nom. Par exemple, si vous voulez rechercher un restaurant appelé "Le Bar du Marché", vous pouvez saisir ce nom dans la case de recherche et le site vous affichera les informations concernant ce restaurant.
+        </p>
+        
+        </div>
+      </div>
+      <div>
+
+      </div>
+      </div>
+    </section>
+    
+  </body>
+</html>
+
